@@ -15,16 +15,6 @@
             .catch(err => console.log('Service Worker Registration Failed!', err));
         }
     </script>
-     <h1>GitHub page as PWA template</h1>
-    …
-  <script>
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-          '/github-page-pwa/sw.js',
-          {scope: '/github-page-pwa/'}
-        )
-      }
-  </script>
 </head>
 <body>
     <h1>Hello, PWA!</h1>
